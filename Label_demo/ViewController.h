@@ -7,9 +7,37 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UIGestureRecognizerDelegate>
+{
+    UICollectionView *_collectionView;
+    NSString* name;
+    NSArray* nameArr;
+    int i;
+    UILabel *  la;
+    UIPageControl * pageControl;
+//    AVPlayer *player;
+//    AVPlayerLayer * playerLayer;
+//    AVAsset *asset;
+//    AVPlayerItem  *playerItem;
+}
 
+
+
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+@property (weak, nonatomic) IBOutlet UIImageView *img9;
+@property (weak, nonatomic) IBOutlet UIImageView *img8;
+@property (weak, nonatomic) IBOutlet UIImageView *img7;
+@property (weak, nonatomic) IBOutlet UIImageView *img6;
+@property (weak, nonatomic) IBOutlet UIImageView *img5;
+@property (weak, nonatomic) IBOutlet UIImageView *img4;
+@property (weak, nonatomic) IBOutlet UIImageView *img3;
+@property (weak, nonatomic) IBOutlet UIImageView *img2;
+@property (weak, nonatomic) IBOutlet UIImageView *img1;
+
+//@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
 @end
 

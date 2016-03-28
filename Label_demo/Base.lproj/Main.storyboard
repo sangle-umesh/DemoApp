@@ -1,25 +1,127 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7WL-rq-Z5R">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                </variation>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="sXU-5u-KXR">
+                                <rect key="frame" x="196" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="240" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="T3y-ZB-ofv">
+                                <rect key="frame" x="167" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="210" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="7pV-SI-5Ry">
+                                <rect key="frame" x="233" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="270" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="9cP-I2-58g">
+                                <rect key="frame" x="262" y="475" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="300" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="ixW-my-6Xx">
+                                <rect key="frame" x="134" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="170" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="TPF-UW-lfQ">
+                                <rect key="frame" x="105" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="130" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="JbY-tK-4JJ">
+                                <rect key="frame" x="75" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="100" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gray_dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="zk1-lu-WZg">
+                                <rect key="frame" x="45" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="70" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black-dot.png" translatesAutoresizingMaskIntoConstraints="NO" id="RaR-Eh-t3Q">
+                                <rect key="frame" x="12" y="476" width="16" height="18"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="40" y="640" width="16" height="18"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3G-7H-olt">
+                                <rect key="frame" x="0.0" y="433" width="320" height="67"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="608" width="375" height="55"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74509803919999995" green="0.75294117650000003" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7WL-rq-Z5R"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="7WL-rq-Z5R"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="img1" destination="RaR-Eh-t3Q" id="Ybc-L0-ojV"/>
+                        <outlet property="img2" destination="zk1-lu-WZg" id="u4H-DR-AWg"/>
+                        <outlet property="img3" destination="JbY-tK-4JJ" id="Sjv-2e-Wny"/>
+                        <outlet property="img4" destination="TPF-UW-lfQ" id="ymH-QU-iyi"/>
+                        <outlet property="img5" destination="ixW-my-6Xx" id="M4A-K9-kWb"/>
+                        <outlet property="img6" destination="T3y-ZB-ofv" id="skQ-Qb-zd2"/>
+                        <outlet property="img7" destination="sXU-5u-KXR" id="oug-LM-VEt"/>
+                        <outlet property="img8" destination="7pV-SI-5Ry" id="rmN-78-IC1"/>
+                        <outlet property="img9" destination="9cP-I2-58g" id="hvE-Hb-IK7"/>
+                        <outlet property="myLabel" destination="V3G-7H-olt" id="j0a-Yv-Tjm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="244.875" y="248.625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="black-dot.png" width="16" height="16"/>
+        <image name="gray_dot.png" width="16" height="16"/>
+    </resources>
 </document>

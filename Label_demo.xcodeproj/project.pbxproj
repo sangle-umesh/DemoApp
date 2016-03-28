@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C711B2AC1CA55D66002AFF19 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C711B2AB1CA55D66002AFF19 /* MediaPlayer.framework */; };
+		C711B2AD1CA56271002AFF19 /* bf20d53bdb3d1a42f6f9e069177fab90.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C75AD3F11CA2D29C00FDB27A /* bf20d53bdb3d1a42f6f9e069177fab90.mp4 */; };
 		C75AD3D81CA2C79C00FDB27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AD3D71CA2C79C00FDB27A /* main.m */; };
 		C75AD3DB1CA2C79C00FDB27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AD3DA1CA2C79C00FDB27A /* AppDelegate.m */; };
 		C75AD3DE1CA2C79C00FDB27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AD3DD1CA2C79C00FDB27A /* ViewController.m */; };
 		C75AD3E11CA2C79C00FDB27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75AD3DF1CA2C79C00FDB27A /* Main.storyboard */; };
 		C75AD3E31CA2C79C00FDB27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C75AD3E21CA2C79C00FDB27A /* Assets.xcassets */; };
 		C75AD3E61CA2C79C00FDB27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75AD3E41CA2C79C00FDB27A /* LaunchScreen.storyboard */; };
+		C75AD3EF1CA2C84A00FDB27A /* black-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C75AD3ED1CA2C84A00FDB27A /* black-dot.png */; };
+		C75AD3F01CA2C84A00FDB27A /* gray_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = C75AD3EE1CA2C84A00FDB27A /* gray_dot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C711B2AB1CA55D66002AFF19 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C75AD3D31CA2C79C00FDB27A /* Label_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Label_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75AD3D71CA2C79C00FDB27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C75AD3D91CA2C79C00FDB27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		C75AD3E21CA2C79C00FDB27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75AD3E51CA2C79C00FDB27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75AD3E71CA2C79C00FDB27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75AD3ED1CA2C84A00FDB27A /* black-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-dot.png"; sourceTree = "<group>"; };
+		C75AD3EE1CA2C84A00FDB27A /* gray_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_dot.png; sourceTree = "<group>"; };
+		C75AD3F11CA2D29C00FDB27A /* bf20d53bdb3d1a42f6f9e069177fab90.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bf20d53bdb3d1a42f6f9e069177fab90.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C711B2AC1CA55D66002AFF19 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 		C75AD3CA1CA2C79C00FDB27A = {
 			isa = PBXGroup;
 			children = (
+				C711B2AB1CA55D66002AFF19 /* MediaPlayer.framework */,
 				C75AD3D51CA2C79C00FDB27A /* Label_demo */,
 				C75AD3D41CA2C79C00FDB27A /* Products */,
 			);
@@ -58,6 +68,9 @@
 		C75AD3D51CA2C79C00FDB27A /* Label_demo */ = {
 			isa = PBXGroup;
 			children = (
+				C75AD3ED1CA2C84A00FDB27A /* black-dot.png */,
+				C75AD3F11CA2D29C00FDB27A /* bf20d53bdb3d1a42f6f9e069177fab90.mp4 */,
+				C75AD3EE1CA2C84A00FDB27A /* gray_dot.png */,
 				C75AD3D91CA2C79C00FDB27A /* AppDelegate.h */,
 				C75AD3DA1CA2C79C00FDB27A /* AppDelegate.m */,
 				C75AD3DC1CA2C79C00FDB27A /* ViewController.h */,
@@ -136,7 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C711B2AD1CA56271002AFF19 /* bf20d53bdb3d1a42f6f9e069177fab90.mp4 in Resources */,
+				C75AD3F01CA2C84A00FDB27A /* gray_dot.png in Resources */,
 				C75AD3E61CA2C79C00FDB27A /* LaunchScreen.storyboard in Resources */,
+				C75AD3EF1CA2C84A00FDB27A /* black-dot.png in Resources */,
 				C75AD3E31CA2C79C00FDB27A /* Assets.xcassets in Resources */,
 				C75AD3E11CA2C79C00FDB27A /* Main.storyboard in Resources */,
 			);
@@ -213,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -264,9 +280,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Label_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ninedots.Label-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -275,9 +293,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Label_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ninedots.Label-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +320,7 @@
 				C75AD3EC1CA2C79C00FDB27A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
