@@ -143,6 +143,7 @@
     name = [nameArr objectAtIndex: i];
     self.myLabel.text=name;
     NSLog(@"%d", i);
+     NSLog(@"%d", i);
 }
 - (void)dateChanged:(id)sender
 {
