@@ -307,7 +307,8 @@
 else{
     i--;
     NSLog(@"I swiped swipeleft ;)");
-    
+        NSLog(@"%@", teju);
+
     NSLog(@"I swiped  swipedRight;)");
     name = [nameArr objectAtIndex: i];
      pageControl.currentPage -=1;
